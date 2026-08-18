@@ -431,16 +431,48 @@ code{
   line-height:1.6;
   opacity:.8;
 }
-.demos__grid{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;
+.demos__carousel{
+  display:flex;
+  align-items:center;
+  gap: 1rem;
 }
+.demos__viewport{
+  overflow:hidden;
+  flex:1;
+  min-width:0;
+}
+.demos__track{
+  display:flex;
+  gap: 1.6rem;
+  will-change: transform;
+}
+.demos__arrow{
+  flex-shrink:0;
+  width:44px;height:44px;
+  border-radius:50%;
+  background: var(--paper);
+  border: 2px solid var(--plum);
+  color: var(--plum);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  transition: transform .15s ease, background .15s ease, color .15s ease;
+}
+.demos__arrow:hover{
+  background: var(--rose);
+  border-color: var(--rose);
+  color: var(--paper);
+  transform: translateY(-2px);
+}
+.demos__arrow:focus-visible{ outline: 3px solid var(--rose-dark); outline-offset: 2px; }
 .demo-card{
   background: var(--paper);
   border: 2px solid var(--plum);
   border-radius: var(--radius);
   overflow:hidden;
+  flex: 0 0 320px;
+  width: 320px;
 }
 .browser--demo{ border:none; border-radius:0; box-shadow:none; margin:0; }
 .browser__placeholder{
@@ -503,7 +535,7 @@ code{
   background: var(--paper);
   border-radius: var(--radius);
   padding: 2rem;
-  max-width: 480px;
+  max-width: 900px;
   width:100%;
   box-shadow: 0 20px 50px rgba(0,0,0,0.35);
 }
@@ -560,7 +592,6 @@ code{
 .accordion{ max-width: 700px; margin:0 auto; }
 .accordion__item{ border-bottom: 1px solid rgba(58,17,48,0.15); }
 .faq .accordion__item{ border-bottom-color: rgba(255,246,250,0.18); }
-.faq .accordion__a p{ color: var(--rose-light); }
 .accordion__q{
   width:100%;
   display:flex;
@@ -643,7 +674,7 @@ code{
 /* ---------- Responsive ---------- */
 @media (max-width: 860px){
   .about__grid{ grid-template-columns: 1fr 1fr; }
-  .demos__grid{ grid-template-columns: 1fr 1fr; }
+  .demo-card{ flex-basis: 280px; width: 280px; }
   .footer__inner{ grid-template-columns: 1fr 1fr; }
   .included__grid{ grid-template-columns: 1fr; }
 }
@@ -662,7 +693,9 @@ code{
   .nav__toggle{ display:flex; }
   .nav__cta{ display:none; }
   .about__grid{ grid-template-columns: 1fr; }
-  .demos__grid{ grid-template-columns: 1fr; }
+  .demo-card{ flex-basis: calc(100vw - 7.5rem); width: calc(100vw - 7.5rem); }
+  .demos__carousel{ gap: .5rem; }
+  .demos__arrow{ width:36px; height:36px; }
   .footer__inner{ grid-template-columns: 1fr; text-align:center; }
   .receipts{ flex-direction:column; align-items:center; }
 }

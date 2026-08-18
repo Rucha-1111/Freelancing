@@ -1,360 +1,606 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Make it Site — One-Page Websites for Small Businesses</title>
-<meta name="description" content="Custom one-page websites for small businesses, starting at ₹4,999. Multi-page React builds quoted separately.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make it Site — One-Page Websites for Small Businesses</title>
+  <meta name="description"
+    content="Custom one-page websites for small businesses, starting at ₹4,999. Multi-page React builds quoted separately.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- NAV -->
-<header class="nav" id="top">
-  <div class="nav__inner">
-    <a href="#top" class="nav__brand">
-      <span class="nav__brand-mark">M</span>
-      <span class="nav__brand-text">Make it <em>Site</em></span>
-    </a>
-    <nav class="nav__links" id="navLinks">
-      <a href="#included">Included</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#demos">Demos</a>
-      <a href="#terms">Terms</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-    <a href="#pricing" class="btn btn--small btn--pink nav__cta">Get a Quote</a>
-    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+  <!-- NAV -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">
+        <span class="nav__brand-mark">M</span>
+        <span class="nav__brand-text">Make it <em>Site</em></span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#included">Included</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#demos">Demos</a>
+        <a href="#terms">Terms</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#pricing" class="btn btn--small btn--pink nav__cta">Get a Quote</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-<!-- HERO -->
-<section class="hero">
-  <p class="hero__kicker">CUSTOM-BUILT · NOT TEMPLATED</p>
-  <h1 class="hero__title">Let's Make Your<br>Business A <span>Website</span></h1>
-  <p class="hero__subtitle">A clean, custom one-page website for your business — designed around your content, not a template. Multi-page sites built in React, quoted separately.</p>
-  <div class="hero__actions">
-    <a href="#pricing" class="btn btn--pink">See Pricing — from ₹4,999</a>
-    <a href="#contact" class="btn btn--outline">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H12l-5 2 1.5-4.5A8.5 8.5 0 1 1 21 11.5Z"/></svg>
-      Message Me
-    </a>
-  </div>
-
-  <div class="browser">
-    <div class="browser__bar">
-      <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
-      <div class="browser__url">yourbusiness.com</div>
-    </div>
-    <div class="browser__page">
-      <div class="browser__nav">
-        <span class="browser__logo"></span>
-        <span class="browser__navlink"></span>
-        <span class="browser__navlink"></span>
-        <span class="browser__navlink browser__navlink--btn"></span>
-      </div>
-      <div class="browser__hero">
-        <div class="browser__line browser__line--lg"></div>
-        <div class="browser__line browser__line--md"></div>
-        <div class="browser__cta"></div>
-      </div>
-      <div class="browser__grid">
-        <div class="browser__card"></div>
-        <div class="browser__card"></div>
-        <div class="browser__card"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- WHAT'S INCLUDED -->
-<section class="included" id="included">
-  <p class="section-kicker">THE PACKAGE</p>
-  <h2 class="section-title">What's Included</h2>
-  <div class="included__grid">
-    <div class="included__col included__col--yes">
-      <h3>Included</h3>
-      <ul>
-        <li>Custom one-page website — HTML/CSS/JS</li>
-        <li>Fully responsive on mobile, tablet &amp; desktop</li>
-        <li>Business-specific sections: About, Services, Gallery, Location, Contact/CTA</li>
-        <li>Basic animations &amp; interactive elements</li>
-        <li>Your text, images, logo &amp; branding integrated</li>
-        <li>Two rounds of revisions</li>
-        <li>Complete source code, handed over to you</li>
-        <li>Basic instructions for deploying it yourself</li>
-      </ul>
-    </div>
-    <div class="included__col included__col--no">
-      <h3>Not Included</h3>
-      <ul>
-        <li>Domain purchase &amp; web hosting</li>
-        <li>Backend, databases &amp; booking systems</li>
-        <li>Payment gateway integration</li>
-        <li>Ongoing maintenance or monthly support</li>
-        <li>Advanced SEO services</li>
-        <li>Professional photography, copywriting or graphic design</li>
-      </ul>
-      <p class="included__note">Need any of these? They can be quoted separately once we scope the project.</p>
-    </div>
-  </div>
-</section>
-
-<!-- PRICING -->
-<section class="pricing" id="pricing">
-  <p class="section-kicker section-kicker--light">TRANSPARENT PRICING</p>
-  <h2 class="section-title section-title--light">Pick Your Build</h2>
-  <p class="pricing__lede">One-page sites are built in plain HTML, CSS and JavaScript. Need more than one page? Those are built in React and quoted separately, since the scope is bigger.</p>
-
-  <div class="receipts">
-    <div class="receipt">
-      <p class="receipt__label">ONE-PAGE WEBSITE</p>
-      <p class="receipt__price"><span class="receipt__currency">₹</span>4,999</p>
-      <p class="receipt__note">starting price · final quote after scope call</p>
-      <div class="receipt__divider"></div>
-      <ul class="receipt__list">
-        <li>HTML / CSS / JavaScript build</li>
-        <li>Single page, all sections agreed upfront</li>
-        <li>2 rounds of revisions</li>
-        <li>5–7 business days after advance + content</li>
-      </ul>
-      <div class="receipt__divider"></div>
-      <p class="receipt__terms">50% advance to start · 50% before final handover</p>
-      <a href="#contact" class="btn btn--pink btn--block">Start This Build</a>
-    </div>
-
-    <div class="receipt">
-      <p class="receipt__label">MULTI-PAGE WEBSITE</p>
-      <p class="receipt__price receipt__price--quote">Custom<br>Quote</p>
-      <p class="receipt__note">built in React · starts above ₹4,999</p>
-      <div class="receipt__divider"></div>
-      <ul class="receipt__list">
-        <li>React build, multiple pages &amp; routes</li>
-        <li>Scoped around your page count &amp; features</li>
-        <li>2 rounds of revisions</li>
-        <li>Timeline set after scope is finalised</li>
-      </ul>
-      <div class="receipt__divider"></div>
-      <p class="receipt__terms">Same 50/50 payment structure applies</p>
-      <a href="#contact" class="btn btn--outline-dark btn--block">Request a Quote</a>
-    </div>
-  </div>
-</section>
-
-<!-- DEMOS -->
-<section class="demos" id="demos">
-  <p class="section-kicker">SEE THE STYLE</p>
-  <h2 class="section-title">Concept Demos</h2>
-  <p class="demos__lede">I'm early in taking on client work, so instead of live links, here are practice builds that show the kind of layout and polish you can expect — screenshots and short walkthrough videos.</p>
-
-  <div class="demos__grid">
-    <article class="demo-card">
-      <div class="browser browser--demo">
-        <div class="browser__bar">
-          <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
-          <div class="browser__url">cafe-concept.demo</div>
-        </div>
-        <div class="browser__placeholder">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <p>Screenshot / video goes here</p>
-        </div>
-      </div>
-      <div class="demo-card__meta">
-        <h3>Café &amp; Bakery — Concept</h3>
-        <p>A one-pager for a local café: menu highlights, story section, map and order-by-WhatsApp button.</p>
-        <button class="demo-card__btn" data-demo="cafe">▶ Watch walkthrough</button>
-      </div>
-    </article>
-
-    <article class="demo-card">
-      <div class="browser browser--demo">
-        <div class="browser__bar">
-          <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
-          <div class="browser__url">salon-concept.demo</div>
-        </div>
-        <div class="browser__placeholder">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <p>Screenshot / video goes here</p>
-        </div>
-      </div>
-      <div class="demo-card__meta">
-        <h3>Salon &amp; Spa — Concept</h3>
-        <p>Service price list, before/after gallery layout and a booking enquiry form.</p>
-        <button class="demo-card__btn" data-demo="salon">▶ Watch walkthrough</button>
-      </div>
-    </article>
-
-    <article class="demo-card">
-      <div class="browser browser--demo">
-        <div class="browser__bar">
-          <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
-          <div class="browser__url">tutor-concept.demo</div>
-        </div>
-        <div class="browser__placeholder">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <p>Screenshot / video goes here</p>
-        </div>
-      </div>
-      <div class="demo-card__meta">
-        <h3>Tutoring Centre — Concept</h3>
-        <p>Batch timings, faculty section and a multi-page React version with a routed enquiry page.</p>
-        <button class="demo-card__btn" data-demo="tutor">▶ Watch walkthrough</button>
-      </div>
-    </article>
-  </div>
-  <p class="demos__footnote">Setup note: swap each placeholder with a real screenshot (<code>&lt;img&gt;</code>) or a short screen-recording (<code>&lt;video&gt;</code>) once you have demo sites built — see comments in <code>script.js</code>.</p>
-</section>
-
-<!-- DEMO MODAL -->
-<div class="modal" id="demoModal" aria-hidden="true">
-  <div class="modal__backdrop" data-close="true"></div>
-  <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <button class="modal__close" data-close="true" aria-label="Close">&times;</button>
-    <h3 id="modalTitle">Walkthrough video</h3>
-    <div class="modal__video-slot">
-      <p>🎥 Video coming soon — drop an <code>.mp4</code> in <code>/assets/</code> and update the <code>src</code> in <code>script.js</code> to show it here.</p>
-    </div>
-  </div>
-</div>
-
-<!-- WHY WORK WITH ME -->
-<section class="about">
-  <p class="section-kicker">A QUICK, HONEST NOTE</p>
-  <h2 class="section-title">Why Work With Someone Just Starting Out</h2>
-  <div class="about__grid">
-    <div class="about__item">
-      <h3>Full attention on your project</h3>
-      <p>No queue of ten other clients — you get direct focus and fast replies while I build.</p>
-    </div>
-    <div class="about__item">
-      <h3>Modern stack, real skills</h3>
-      <p>HTML/CSS/JS for one-pagers, React for anything bigger — built cleanly, not copy-pasted.</p>
-    </div>
-    <div class="about__item">
-      <h3>Fair, upfront pricing</h3>
-      <p>You'll know the price and terms before any work starts — no hidden charges later.</p>
-    </div>
-    <div class="about__item">
-      <h3>Direct communication</h3>
-      <p>You talk to the person actually building your site, every step of the way.</p>
-    </div>
-  </div>
-</section>
-
-<!-- TERMS & CONDITIONS -->
-<section class="terms" id="terms">
-  <p class="section-kicker">READ BEFORE YOU BOOK</p>
-  <h2 class="section-title">Terms &amp; Conditions</h2>
-  <div class="accordion" id="termsList">
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">1. The package <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Each site is a custom build around your business, content and branding — a one-page site in HTML/CSS/JS, or a multi-page site in React. Sections and functionality are agreed before development starts.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">2. Pricing <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>One-page websites start at ₹4,999. The final price depends on design complexity, content volume and functionality. Multi-page React builds are quoted separately and start above the one-page price. A fixed quote is shared once requirements are finalised.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">3. Payment terms <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>50% advance is due to begin work; the remaining 50% is due before final source code and files are handed over. Development starts only after the advance is received, and the advance is non-refundable once development has begun.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">4. Timeline <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Standard delivery is 5–7 business days after the advance is received, all content is provided, and requirements are finalised. Delays in content, images or feedback will extend the timeline. Larger, more custom projects may take longer — this is communicated upfront.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">5. Your responsibilities <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>You provide business information, logo, brand assets, text, images, pricing details, contact info and any other content the site needs — and confirm you have the rights to use everything supplied.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">6. Revisions <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Two rounds of reasonable revisions are included. A full change in design direction, new functionality, or a major scope change is treated as additional work and quoted separately.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">7. Domain &amp; hosting <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Domain and hosting are not included and remain your responsibility to purchase and maintain. You'll receive the complete source code plus basic instructions for deploying it — no ongoing hosting or deployment service is provided.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">8. Source code &amp; ownership <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Once final payment is received, you get the full source code and project files to host and use for your business. Any third-party fonts, libraries, plugins or services used remain subject to their own licences.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">9. Additional work <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>New pages, backend features, databases, booking systems, payment integrations, extra animations or major redesigns are quoted separately and only started with your approval.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">10. Cancellation <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>If you cancel after development has started, the advance payment is non-refundable, and any significant additional work already completed may also be billed. Cancellations before development begins are discussed based on work already done.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">11. Final approval <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Before delivery, you'll review the completed site and use your included revisions. Once revisions are done and final payment is received, the project is considered delivered — changes requested after that are treated as additional work.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">12. Acceptance <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Approving a quotation and paying the advance confirms you've reviewed and accepted the scope, pricing, timeline and terms outlined here.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section class="faq" id="faq">
-  <p class="section-kicker">COMMON QUESTIONS</p>
-  <h2 class="section-title">FAQ</h2>
-  <div class="accordion" id="faqList">
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">Do you handle domain and hosting for me? <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>No — domain and hosting aren't included. You'll get the complete source code and basic instructions to deploy it yourself, on whatever host or domain you choose.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">I don't have content or photos ready — is that a problem? <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>You'll need to provide your business info, text and images before development starts, since the site is built around your real content. If you're not ready yet, we can lock in the plan first and start once content is in hand.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">My site needs more than one page — what changes? <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Multi-page sites are built in React instead of plain HTML/CSS/JS, since there's more structure involved. That's quoted separately and starts above the ₹4,999 one-page price, based on your page count and features.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">Can you add booking or payments? <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>Booking systems and payment gateway integration aren't part of the base package, but they can be scoped and quoted separately once we know what you need.</p></div>
-    </div>
-    <div class="accordion__item">
-      <button class="accordion__q" aria-expanded="false">Do I pay anything ongoing after the site is delivered? <span class="accordion__icon">+</span></button>
-      <div class="accordion__a"><p>No monthly fee from me. You'll separately pay your own domain/hosting provider for renewals, and if you want ongoing edits later, that's a separate conversation — never required.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT / FOOTER -->
-<footer class="footer" id="contact">
-  <div class="footer__inner">
-    <div class="footer__col">
-      <p class="footer__brand">Make it <em>Site</em></p>
-      <p>Custom one-page websites for small businesses, starting at ₹4,999. Multi-page React builds quoted on request.</p>
-      <p class="footer__badge">🌱 Now booking early client projects</p>
-    </div>
-    <div class="footer__col">
-      <h4>Get In Touch</h4>
-      <p><a href="tel:+911234567890">+91 12345 67890</a></p>
-      <p><a href="mailto:hello@makeitsite.example">hello@makeitsite.example</a></p>
-      <a href="#" class="btn btn--outline btn--footer">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H12l-5 2 1.5-4.5A8.5 8.5 0 1 1 21 11.5Z"/></svg>
-        Message on WhatsApp
+  <!-- HERO -->
+  <section class="hero">
+    <p class="hero__kicker">CUSTOM-BUILT · NOT TEMPLATED</p>
+    <h1 class="hero__title">Let's Make Your<br>Business A <span>Website</span></h1>
+    <p class="hero__subtitle">A clean, custom one-page website for your business — designed around your content, not a
+      template. Multi-page sites built in React, quoted separately.</p>
+    <div class="hero__actions">
+      <a href="#pricing" class="btn btn--pink">See Pricing — from ₹4,999</a>
+      <a href="#contact" class="btn btn--outline">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H12l-5 2 1.5-4.5A8.5 8.5 0 1 1 21 11.5Z" />
+        </svg>
+        Message Me
       </a>
     </div>
-    <div class="footer__col">
-      <h4>Availability</h4>
-      <p>Mon – Sat, 10am – 7pm IST</p>
-      <p>Replies within a few hours</p>
+
+    <div class="browser">
+      <div class="browser__bar">
+        <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+        <div class="browser__url">yourbusiness.com</div>
+      </div>
+      <div class="browser__page">
+        <div class="browser__nav">
+          <span class="browser__logo"></span>
+          <span class="browser__navlink"></span>
+          <span class="browser__navlink"></span>
+          <span class="browser__navlink browser__navlink--btn"></span>
+        </div>
+        <div class="browser__hero">
+          <div class="browser__line browser__line--lg"></div>
+          <div class="browser__line browser__line--md"></div>
+          <div class="browser__cta"></div>
+        </div>
+        <div class="browser__grid">
+          <div class="browser__card"></div>
+          <div class="browser__card"></div>
+          <div class="browser__card"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT'S INCLUDED -->
+  <section class="included" id="included">
+    <p class="section-kicker">THE PACKAGE</p>
+    <h2 class="section-title">What's Included</h2>
+    <div class="included__grid">
+      <div class="included__col included__col--yes">
+        <h3>Included</h3>
+        <ul>
+          <li>Custom one-page website — HTML/CSS/JS</li>
+          <li>Fully responsive on mobile, tablet &amp; desktop</li>
+          <li>Business-specific sections: About, Services, Gallery, Location, Contact/CTA</li>
+          <li>Basic animations &amp; interactive elements</li>
+          <li>Your text, images, logo &amp; branding integrated</li>
+          <li>Two rounds of revisions</li>
+          <li>Complete source code, handed over to you</li>
+          <li>Basic instructions for deploying it yourself</li>
+        </ul>
+      </div>
+      <div class="included__col included__col--no">
+        <h3>Not Included</h3>
+        <ul>
+          <li>Domain purchase &amp; web hosting</li>
+          <li>Backend, databases &amp; booking systems</li>
+          <li>Payment gateway integration</li>
+          <li>Ongoing maintenance or monthly support</li>
+          <li>Advanced SEO services</li>
+          <li>Professional photography, copywriting or graphic design</li>
+        </ul>
+        <p class="included__note">Need any of these? They can be quoted separately once we scope the project.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <p class="section-kicker section-kicker--light">TRANSPARENT PRICING</p>
+    <h2 class="section-title section-title--light">Pick Your Build</h2>
+    <p class="pricing__lede">One-page sites are built in plain HTML, CSS and JavaScript. Need more than one page? Those
+      are built in React and quoted separately, since the scope is bigger.</p>
+
+    <div class="receipts">
+      <div class="receipt">
+        <p class="receipt__label">ONE-PAGE WEBSITE</p>
+        <p class="receipt__price"><span class="receipt__currency">₹</span>4,999</p>
+        <p class="receipt__note">starting price · final quote after scope call</p>
+        <div class="receipt__divider"></div>
+        <ul class="receipt__list">
+          <li>HTML / CSS / JavaScript build</li>
+          <li>Single page, all sections agreed upfront</li>
+          <li>2 rounds of revisions</li>
+          <li>5–7 business days after advance + content</li>
+        </ul>
+        <div class="receipt__divider"></div>
+        <p class="receipt__terms">50% advance to start · 50% before final handover</p>
+        <a href="#contact" class="btn btn--pink btn--block">Start This Build</a>
+      </div>
+
+      <div class="receipt">
+        <p class="receipt__label">MULTI-PAGE WEBSITE</p>
+        <p class="receipt__price receipt__price--quote">Custom<br>Quote</p>
+        <p class="receipt__note">built in React · starts above ₹4,999</p>
+        <div class="receipt__divider"></div>
+        <ul class="receipt__list">
+          <li>React build, multiple pages &amp; routes</li>
+          <li>Scoped around your page count &amp; features</li>
+          <li>2 rounds of revisions</li>
+          <li>Timeline set after scope is finalised</li>
+        </ul>
+        <div class="receipt__divider"></div>
+        <p class="receipt__terms">Same 50/50 payment structure applies</p>
+        <a href="#contact" class="btn btn--outline-dark btn--block">Request a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMOS -->
+  <section class="demos" id="demos">
+    <p class="section-kicker">SEE THE STYLE</p>
+    <h2 class="section-title">Concept Demos</h2>
+    <p class="demos__lede">I'm early in taking on client work, so instead of live links, here are practice builds that
+      show the kind of layout and polish you can expect — screenshots and short walkthrough videos.</p>
+
+    <div class="demos__carousel">
+      <button class="demos__arrow demos__arrow--left" id="demosPrev" aria-label="Previous demo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
+
+      <div class="demos__viewport">
+        <div class="demos__track" id="demosTrack">
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">cafe-concept.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/CakeShop.png" alt="Café & Bakery website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Café &amp; Bakery — Concept</h3>
+              <p>A one-pager for a local café: menu highlights, story section, map and order-by-WhatsApp button.</p>
+              <button class="demo-card__btn" data-demo="cafe">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">dance-studio.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Dance.png" alt="Dance Studio website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Dance Studio — Concept</h3>
+              <p>A vibrant studio website featuring class schedules, dance programs, instructor highlights and enquiry
+                details.</p>
+              <button class="demo-card__btn" data-demo="dance">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">gift-shop.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Gift.png" alt="Gift Shop website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Gift Shop — Concept</h3>
+              <p>A warm storefront concept showcasing curated gifts, seasonal collections and featured products.</p>
+              <button class="demo-card__btn" data-demo="gift">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">handmade-bags.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/HandmadeBags.png" alt="Handmade Bags website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Handmade Bags — Concept</h3>
+              <p>A refined product-focused website for a handmade accessories brand with collections, story and product
+                highlights.</p>
+              <button class="demo-card__btn" data-demo="handmade-bags">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">jewellery-concept.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Jewellery.png" alt="Jewellery brand website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Jewellery Brand — Concept</h3>
+              <p>An elegant product showcase for a jewellery brand featuring collections, signature pieces and brand
+                storytelling.</p>
+              <button class="demo-card__btn" data-demo="jewellery">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">nail-studio.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Nails.png" alt="Nail Studio website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Nail Studio — Concept</h3>
+              <p>A stylish salon one-pager featuring nail services, pricing, portfolio imagery and an enquiry section.
+              </p>
+              <button class="demo-card__btn" data-demo="nails">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">photography-studio.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Photography.png" alt="Photography Studio website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Photography Studio — Concept</h3>
+              <p>A visual portfolio website for photographers with featured work, services, testimonials and enquiry
+                details.</p>
+              <button class="demo-card__btn" data-demo="photography">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">tattoo-studio.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Tattoo.png" alt="Tattoo Studio website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Tattoo Studio — Concept</h3>
+              <p>A bold studio website featuring tattoo styles, artist information, portfolio work and consultation
+                details.</p>
+              <button class="demo-card__btn" data-demo="tattoo">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">wedding-planner.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Wedding.png" alt="Wedding Planner website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Wedding Planner — Concept</h3>
+              <p>An elegant service website showcasing wedding planning packages, past celebrations, services and
+                enquiries.</p>
+              <button class="demo-card__btn" data-demo="wedding">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">wellness-center.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Wellness.png" alt="Wellness Center website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Wellness Center — Concept</h3>
+              <p>A calming wellness website highlighting treatments, services, philosophy and appointment enquiries.</p>
+              <button class="demo-card__btn" data-demo="wellness">▶ Watch walkthrough</button>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="browser browser--demo">
+              <div class="browser__bar">
+                <span class="browser__dot"></span><span class="browser__dot"></span><span class="browser__dot"></span>
+                <div class="browser__url">yoga-studio.demo</div>
+              </div>
+              <div class="browser__placeholder">
+                <img src="assets/Yoga.png" alt="Yoga Studio website preview">
+              </div>
+            </div>
+            <div class="demo-card__meta">
+              <h3>Yoga Studio — Concept</h3>
+              <p>A peaceful studio website featuring yoga classes, wellness programs, instructor information and
+                enquiries.</p>
+              <button class="demo-card__btn" data-demo="yoga">▶ Watch walkthrough</button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <button class="demos__arrow demos__arrow--right" id="demosNext" aria-label="Next demo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- DEMO MODAL -->
+  <div class="modal" id="demoModal" aria-hidden="true">
+    <div class="modal__backdrop" data-close="true"></div>
+    <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" data-close="true" aria-label="Close">&times;</button>
+      <h3 id="modalTitle">Walkthrough video</h3>
+      <div class="modal__video-slot">
+        <p>🎥 Video coming soon — drop an <code>.mp4</code> in <code>/assets/</code> and update the <code>src</code> in
+          <code>script.js</code> to show it here.
+        </p>
+      </div>
     </div>
   </div>
-  <p class="footer__bottom">© 2026 Make it Site. Terms &amp; pricing above apply to all projects.</p>
-</footer>
 
-<script src="script.js"></script>
+  <!-- WHY WORK WITH ME -->
+  <section class="about">
+    <p class="section-kicker">A QUICK, HONEST NOTE</p>
+    <h2 class="section-title">Why Work With Someone Just Starting Out</h2>
+    <div class="about__grid">
+      <div class="about__item">
+        <h3>Full attention on your project</h3>
+        <p>No queue of ten other clients — you get direct focus and fast replies while I build.</p>
+      </div>
+      <div class="about__item">
+        <h3>Modern stack, real skills</h3>
+        <p>HTML/CSS/JS for one-pagers, React for anything bigger — built cleanly, not copy-pasted.</p>
+      </div>
+      <div class="about__item">
+        <h3>Fair, upfront pricing</h3>
+        <p>You'll know the price and terms before any work starts — no hidden charges later.</p>
+      </div>
+      <div class="about__item">
+        <h3>Direct communication</h3>
+        <p>You talk to the person actually building your site, every step of the way.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TERMS & CONDITIONS -->
+  <section class="terms" id="terms">
+    <p class="section-kicker">READ BEFORE YOU BOOK</p>
+    <h2 class="section-title">Terms &amp; Conditions</h2>
+    <div class="accordion" id="termsList">
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">1. The package <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Each site is a custom build around your business, content and branding — a one-page site in HTML/CSS/JS, or
+            a multi-page site in React. Sections and functionality are agreed before development starts.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">2. Pricing <span class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>One-page websites start at ₹4,999. The final price depends on design complexity, content volume and
+            functionality. Multi-page React builds are quoted separately and start above the one-page price. A fixed
+            quote is shared once requirements are finalised.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">3. Payment terms <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>50% advance is due to begin work; the remaining 50% is due before final source code and files are handed
+            over. Development starts only after the advance is received, and the advance is non-refundable once
+            development has begun.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">4. Timeline <span class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Standard delivery is 5–7 business days after the advance is received, all content is provided, and
+            requirements are finalised. Delays in content, images or feedback will extend the timeline. Larger, more
+            custom projects may take longer — this is communicated upfront.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">5. Your responsibilities <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>You provide business information, logo, brand assets, text, images, pricing details, contact info and any
+            other content the site needs — and confirm you have the rights to use everything supplied.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">6. Revisions <span class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Two rounds of reasonable revisions are included. A full change in design direction, new functionality, or a
+            major scope change is treated as additional work and quoted separately.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">7. Domain &amp; hosting <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Domain and hosting are not included and remain your responsibility to purchase and maintain. You'll receive
+            the complete source code plus basic instructions for deploying it — no ongoing hosting or deployment service
+            is provided.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">8. Source code &amp; ownership <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Once final payment is received, you get the full source code and project files to host and use for your
+            business. Any third-party fonts, libraries, plugins or services used remain subject to their own licences.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">9. Additional work <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>New pages, backend features, databases, booking systems, payment integrations, extra animations or major
+            redesigns are quoted separately and only started with your approval.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">10. Cancellation <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>If you cancel after development has started, the advance payment is non-refundable, and any significant
+            additional work already completed may also be billed. Cancellations before development begins are discussed
+            based on work already done.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">11. Final approval <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Before delivery, you'll review the completed site and use your included revisions. Once revisions are done
+            and final payment is received, the project is considered delivered — changes requested after that are
+            treated as additional work.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">12. Acceptance <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Approving a quotation and paying the advance confirms you've reviewed and accepted the scope, pricing,
+            timeline and terms outlined here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <p class="section-kicker">COMMON QUESTIONS</p>
+    <h2 class="section-title">FAQ</h2>
+    <div class="accordion" id="faqList">
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">Do you handle domain and hosting for me? <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>No — domain and hosting aren't included. You'll get the complete source code and basic instructions to
+            deploy it yourself, on whatever host or domain you choose.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">I don't have content or photos ready — is that a problem?
+          <span class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>You'll need to provide your business info, text and images before development starts, since the site is
+            built around your real content. If you're not ready yet, we can lock in the plan first and start once
+            content is in hand.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">My site needs more than one page — what changes? <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Multi-page sites are built in React instead of plain HTML/CSS/JS, since there's more structure involved.
+            That's quoted separately and starts above the ₹4,999 one-page price, based on your page count and features.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">Can you add booking or payments? <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>Booking systems and payment gateway integration aren't part of the base package, but they can be scoped and
+            quoted separately once we know what you need.</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__q" aria-expanded="false">Do I pay anything ongoing after the site is delivered? <span
+            class="accordion__icon">+</span></button>
+        <div class="accordion__a">
+          <p>No monthly fee from me. You'll separately pay your own domain/hosting provider for renewals, and if you
+            want ongoing edits later, that's a separate conversation — never required.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <p class="footer__brand">Make it <em>Site</em></p>
+        <p>Custom one-page websites for small businesses, starting at ₹4,999. Multi-page React builds quoted on request.
+        </p>
+        <p class="footer__badge">🌱 Now booking early client projects</p>
+      </div>
+      <div class="footer__col">
+        <h4>Get In Touch</h4>
+        <p><a href="tel:+911234567890">+91 12345 67890</a></p>
+        <p><a href="mailto:hello@makeitsite.example">hello@makeitsite.example</a></p>
+        <a href="#" class="btn btn--outline btn--footer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H12l-5 2 1.5-4.5A8.5 8.5 0 1 1 21 11.5Z" />
+          </svg>
+          Message on WhatsApp
+        </a>
+      </div>
+      <div class="footer__col">
+        <h4>Availability</h4>
+        <p>Mon – Sat, 10am – 7pm IST</p>
+        <p>Replies within a few hours</p>
+      </div>
+    </div>
+    <p class="footer__bottom">© 2026 Make it Site. Terms &amp; pricing above apply to all projects.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

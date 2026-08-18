@@ -627,6 +627,7 @@ code{
   line-height:1.65;
   opacity:.82;
   padding-bottom: 1.3rem;
+  color: var(--rose-tint);
 }
 
 /* ---------- Footer ---------- */

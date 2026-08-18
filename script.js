@@ -103,12 +103,6 @@ if (demosTrack && demosPrev && demosNext) {
   });
 }
 
-// ---------- Demo walkthrough modal ----------
-// To wire up real videos: add a src for each demo id below, e.g.
-//   cafe:  'assets/cafe-walkthrough.mp4',
-//   salon: 'assets/salon-walkthrough.mp4',
-//   tutor: 'assets/tutor-walkthrough.mp4',
-// then this script will swap the placeholder text for a <video> player automatically.
 const demoVideos = {
   cafe: '',
   dance: 'assets/Dance.mp4',

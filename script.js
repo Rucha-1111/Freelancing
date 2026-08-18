@@ -110,7 +110,7 @@ if (demosTrack && demosPrev && demosNext) {
 //   tutor: 'assets/tutor-walkthrough.mp4',
 // then this script will swap the placeholder text for a <video> player automatically.
 const demoVideos = {
-  cafe: 'assets/CakeShop.mp4',
+  cafe: '',
   dance: 'assets/Dance.mp4',
   gift: 'assets/Gift.mp4',
   'handmade-bags': 'assets/HandmadeBags.mp4',
